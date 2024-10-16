@@ -115,7 +115,7 @@ for key, value in sorted_occurences.items():
 
 print("*"*75)
 # Output which letter occurred the most 
-(f"The letter that occurred the most is {most_occurred}")
+print(f"The letter that occurred the most is {most_occurred}")
 print("*"*75)
 # Output which letter occurred the least 
 print(f"The letter that occurred the least is {least_occurred}")
@@ -124,7 +124,7 @@ print("*"*75)
 # Output what the percentage of the string each character is, again in alphabetical
 percent_occurrence = {}
 for key, value in sorted_occurences.items():
-   percent_occurrence[key] = value / len(sorted_occurences)
+   percent_occurrence[key] = value / len(random_string) *100
 
 for key, value in percent_occurrence.items():
-    print(f'{key.upper()} represents {value:.2}% of the random string.')
+    print(f'{key} represents {value:.2}% of the random string.')
