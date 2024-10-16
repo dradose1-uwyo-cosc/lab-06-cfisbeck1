@@ -4,9 +4,8 @@
 # Lab 06
 # Lab Section: 15
 # Sources, people worked with, help given to: 
-# your
-# comments
-# here
+# lecture notes
+
 
 
 random_string = """
