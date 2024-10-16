@@ -127,4 +127,4 @@ for key, value in sorted_occurences.items():
    percent_occurrence[key] = value / len(random_string) *100
 
 for key, value in percent_occurrence.items():
-    print(f'{key} represents {value:.2}% of the random string.')
+    print(f'{key} represents {value:.3}% of the random string.')
